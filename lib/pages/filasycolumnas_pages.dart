@@ -9,16 +9,30 @@ class FilasColumnasPage extends StatelessWidget {
           title: Text('Filas y Columnas'),
         ),
         body: Container(
-          //color: Colors.red,
-          child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-            //mainAxisSize: MainAxisSize.min,
-            children: [
-              Text('texto'),
-              TextoWidget(nombre: 'Antonio', apellido: 'Torrez'),
-              Text('texto'),
-            ],
-          ),
-        ));
+            color: Colors.red,
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              mainAxisSize: MainAxisSize.max,
+              children: [
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  //mainAxisSize: MainAxisSize.min,
+                  children: [
+                    Text('texto'),
+                    TextoWidget(nombre: 'Antonio', apellido: 'Torrez'),
+                    Text('texto'),
+                  ],
+                ),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  //mainAxisSize: MainAxisSize.min,
+                  children: [
+                    Text('texto'),
+                    TextoWidget(nombre: 'Antonio', apellido: 'Torrez'),
+                    Text('texto'),
+                  ],
+                ),
+              ],
+            )));
   }
 }
