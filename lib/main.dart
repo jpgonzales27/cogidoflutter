@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:practica/pages/buttom_page.dart';
+import 'package:practica/pages/campos_texto_page.dart';
+import 'package:practica/pages/practica_page.dart';
+import 'package:practica/pages/solucion_tarea2.dart';
 import './pages/card_page.dart';
 import './pages/filasycolumnas_pages.dart';
 import './pages/home_page.dart';
@@ -14,7 +17,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       //home: LoginPage(),
-      initialRoute: 'boton',
+      initialRoute: 'texto',
       routes: {
         'home': (_) => HomePage(),
         'card': (_) => CardPage(),
@@ -22,6 +25,9 @@ class MyApp extends StatelessWidget {
         'login': (_) => LoginPage(),
         'tarea1': (_) => SolucionTarea1(),
         'boton': (_) => ButtomPage(),
+        'practica': (_) => PracticaPage(),
+        'tarea3': (_) => SolucionTarea2Page(),
+        'texto': (_) => CamposTextoPage(),
       },
     );
   }

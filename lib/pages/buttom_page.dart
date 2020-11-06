@@ -1,3 +1,5 @@
+import 'dart:math';
+
 import 'package:flutter/material.dart';
 
 class ButtomPage extends StatefulWidget {
@@ -51,7 +53,9 @@ class _ButtomPageState extends State<ButtomPage> {
       //   _pos = 0;
       // }
 
-      _pos < 2 ? _pos++ : _pos = 0;
+      //_pos < 2 ? _pos++ : _pos = 0;
+      _pos = Random().nextInt(3);
+      print(_pos);
     });
   }
 }
