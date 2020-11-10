@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:practica/widgets/midrawer_widget.dart';
 
 class SolucionTarea2Page extends StatefulWidget {
   @override
@@ -11,6 +12,7 @@ class _SolucionTarea2PageState extends State<SolucionTarea2Page> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      drawer: DrawerMenu(),
       appBar: AppBar(
         backgroundColor: Colors.redAccent,
         title: Text('Solucion Tarea 3'),

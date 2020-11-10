@@ -1,6 +1,7 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
+import 'package:practica/widgets/midrawer_widget.dart';
 
 class ButtomPage extends StatefulWidget {
   @override
@@ -19,6 +20,7 @@ class _ButtomPageState extends State<ButtomPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      drawer: DrawerMenu(),
       appBar: AppBar(
         title: Text('Ejemplo State'),
         centerTitle: true,

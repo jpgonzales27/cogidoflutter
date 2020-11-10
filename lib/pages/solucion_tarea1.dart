@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:practica/widgets/micard_widget.dart';
+import 'package:practica/widgets/midrawer_widget.dart';
 
 class SolucionTarea1 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      drawer: DrawerMenu(),
       appBar: AppBar(
         title: Text('App Bar'),
         centerTitle: true,

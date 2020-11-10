@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:practica/widgets/midrawer_widget.dart';
 
 class PracticaPage extends StatefulWidget {
   @override
@@ -11,6 +12,7 @@ class _ButtomPageState extends State<PracticaPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      drawer: DrawerMenu(),
       appBar: AppBar(
         title: Text('Practica Page'),
         centerTitle: true,

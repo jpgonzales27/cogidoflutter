@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:practica/widgets/midrawer_widget.dart';
 
 class LoginPage extends StatelessWidget {
   LoginPage();
@@ -6,6 +7,7 @@ class LoginPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      drawer: DrawerMenu(),
       backgroundColor: Colors.orange,
       body: SafeArea(
           child: Column(
