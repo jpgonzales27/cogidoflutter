@@ -28,6 +28,8 @@ class DrawerMenu extends StatelessWidget {
               Icons.radio_button_checked, 'Ejemplo boton', context, 'boton'),
           drawerItem(Icons.file_download, 'Practica', context, 'practica'),
           drawerItem(Icons.plus_one_rounded, 'Tarea3', context, 'tarea3'),
+          drawerItem(Icons.pages, 'Pagina 1', context, 'pagina1'),
+          drawerItem(Icons.person_add, 'Ejemplo Alumnos', context, 'alumno'),
         ],
       ),
     );
