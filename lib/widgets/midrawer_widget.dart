@@ -30,6 +30,7 @@ class DrawerMenu extends StatelessWidget {
           drawerItem(Icons.plus_one_rounded, 'Tarea3', context, 'tarea3'),
           drawerItem(Icons.pages, 'Pagina 1', context, 'pagina1'),
           drawerItem(Icons.person_add, 'Ejemplo Alumnos', context, 'alumno'),
+          drawerItem(Icons.list, 'Lista Personas', context, 'lista'),
         ],
       ),
     );

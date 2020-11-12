@@ -8,6 +8,7 @@ import './pages/card_page.dart';
 import './pages/filasycolumnas_pages.dart';
 import './pages/home_page.dart';
 import './pages/solucion_tarea1.dart';
+import 'pages/ejemploLista_page.dart';
 import 'pages/listview_page.dart';
 import 'pages/login_pagen.dart';
 
@@ -32,6 +33,7 @@ class MyApp extends StatelessWidget {
         'texto': (_) => CamposTextoPage(),
         'pagina1': (_) => Pagina1Page(),
         'alumno': (_) => ListViewPage(),
+        'lista': (_) => ListaPersonaPage()
       },
     );
   }
